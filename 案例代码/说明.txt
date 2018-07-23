@@ -1,0 +1,10 @@
+1.把ncurses_programs 文件夹拷贝到linux系统的目录下
+2.cd ncurses_programs        /* 进入ncurses_programs目录 */
+3.make                       /* 编译程序 */
+4.cd demo/exe                /* 在/demo/exe下面可以看到例子的程序 */
+5. ./hello_world             /* ./ 后面带程序名 就可以执行相应的程序 */
+
+
+备注：如果是ncurses_programs 压缩包拷贝到linux系统的话需要执行如下命令进行解压缩
+      tar zvxf ncurses_programs.tar.gz
+      
